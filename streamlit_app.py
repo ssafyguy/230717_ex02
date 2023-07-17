@@ -21,5 +21,12 @@ area = '원의 넓이 : '
 st.write(PI_is, PI)
 st.write(radius_is, radius)
 st.write(circum, radius * 2 * PI)
-st.write(area, radius * radius * PI)
+# st.write(area, radius * radius * PI)
 st.write(area, radius ** 2 * PI)
+
+with st.echo():
+    st.write(PI_is, PI)
+    st.write(radius_is, radius)
+    st.write(circum, radius * 2 * PI)
+    # st.write(area, radius * radius * PI)
+    st.write(area, radius ** 2 * PI)

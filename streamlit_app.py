@@ -30,3 +30,11 @@ with st.echo():
     st.write(circum, radius * 2 * PI)
     # st.write(area, radius * radius * PI)
     st.write(area, radius ** 2 * PI)
+
+with st.echo():
+    radius = st.number_input("반지름 입력")
+    st.write(PI_is, PI)
+    st.write(radius_is, radius)
+    st.write(circum, radius * 2 * PI)
+    # st.write(area, radius * radius * PI)
+    st.write(area, radius ** 2 * PI)
